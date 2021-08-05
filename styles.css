@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type:none;
+}
+
+img{
+    width:100%;
+}
+
+main{
+    width : 80%;
+    margin :50px auto 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 268px;
+    height: 93px;
+}
+
+.mainSearch{
+    margin : 50px 0;
+}
+
+.searchBar{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.searchBar span{
+    height:50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+.searchBar span input{
+    margin-right:auto;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    width:100%;
+    padding:0 20px;
+    
+}
+
+
+.searchBar i {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 10px;
+    font-size: 25px;
+}
+
+#mainSearch{
+    background:#ddd;
+    width:100%;
+}
+#IngrSearch{
+    background:blue;
+}
+#AppSearch{
+    background:green;
+}
+#UstSearch{
+    background:orange;
+}
+
+/*Les recettes*/
+#recettes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recette{
+    background:#ccc;
+    padding:15px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    width : 40%;
+    margin-bottom: 10px;;
+}
+
+.recette span{
+    display:flex;
+    flex-direction: row;
+}
+.recette .titre{
+    margin-right:auto;
+}
+.recette i{
+    display: flex;
+    align-items: center;
+    margin-right:5px;
+}
+
+h1{
+    font-size: 150%;
+}
+
+.recette .detail{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.detail > * {
+    width: 45%;
+}

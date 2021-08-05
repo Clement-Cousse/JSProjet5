@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" /> <!-- to keep the encoding style & charater set -->
+  <title>Les petits plats</title> <!-- Title of this web page (on Google, tabs…) -->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Site de recettes de cuisine" />
+  <link rel="stylesheet" href="styles.css" /> <!-- Link to the CSS page-->
+  <script src="https://kit.fontawesome.com/32e4f6682e.js" crossorigin="anonymous"></script> <!-- Personal Fontawesome icon kit link-->
+  
+</head>
+
+<body>
+
+  <header>
+      <img src="images/logo.png" class="logo"/>
+  </header>
+
+  <main>
+
+    <div class='mainSearch'>
+      <div class='searchBar' id='mainSearch'>
+        <span>
+          <input type='text' id='inputMainSearch'>
+          <button id='submitMainSearch'>
+          <i class="fas fa-search"></i>
+          </button>
+        </span>
+        <div class='suggestion'>
+
+        </div>
+      </div>
+    </div>
+    <div id='filterZone'>
+      <div class='searchBar' id='IngrSearch'>
+        <span>
+          <input type='text'>
+          <i class="fas fa-search"></i>
+        </span>
+        <div class='suggestion'>
+
+        </div>
+      </div>
+      <div class='searchBar' id='AppSearch'>
+        <span>
+          <input type='text'>
+          <i class="fas fa-search"></i>
+        </span>
+        <div class='suggestion'>
+
+        </div>
+      </div>
+      <div class='searchBar' id='UstSearch'>
+        <span>
+          <input type='text'>
+          <span class='icon'><i class="fas fa-search"></i></span>
+        </span>
+        <div class='suggestion'>
+        </div>
+      </div>
+    </div>
+      <div id='recettes'>
+
+      </div>
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+  <script src="recipes.js"></script>
+  <script src="test2.js"></script>
+  
+</body>
+
+</html>
